@@ -48,5 +48,5 @@ From supervised Learning, I am using Regression to predict how fast Covid-19 wil
 ## Sample data that mimics the expected final database structure or schema:
 ![Database_Structure](Database_Structure.png)
 
-## Draft machine learning module is connected to the provisional database - 
+## Draft machine learning module is connected to the provisional database:
 ![Draft_machine_learning](Draft_mathine_learning.png)
