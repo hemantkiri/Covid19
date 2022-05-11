@@ -49,4 +49,5 @@ From supervised Learning, I am using Regression to predict how fast Covid-19 wil
 ![Database_Structure](Database_Structure.png)
 
 ## Draft machine learning module is connected to the provisional database:
-![Draft_machine_learning](Draft_mathine_learning.png)
+![Draft_machine_learning](Draft_machine_learning.png)
+
