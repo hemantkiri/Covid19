@@ -12,7 +12,7 @@ Since the virus has shown evidence of human-to-human transmission, by the end of
 Covid-19 is a situation that has affected many people worldwide and has changed their lifestyles in many ways.
 * Unlimited hours of doctors and nurses’ job duties to save someones' lives.
 * Online schools classes and exames.
-* Online work for number of hours per position.
+* Online work.
 * Online business increase but small businesses got closed.
 
 
