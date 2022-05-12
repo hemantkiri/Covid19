@@ -53,7 +53,7 @@ CREATE TABLE usa_county (
 
 CREATE TABLE worldmeter_data (
     Country TEXT PRIMARY KEY NOT NULL,
-    Population INTEGER,
+    Population Population,
     Total_Cases INTEGER,
     New_Cases INTEGER,
     Total_Deaths INTEGER,
