@@ -41,8 +41,9 @@ https://github.com/hemantkiri/Covid19
 ## Machine Learning Model
 
 ## Takes in data in from above description of the source of data:
-I will be using Regression model from Supervised Learning to find out how quickly Covid-19 will hit to all the coundries in the world?
-During this time vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
+I am using Regression model from Supervised Learning to find "how quickly Covid-19 will hit to all the coundries in the world"?
+
+During the fiest seven months of 2020, vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
 so prediction in confirm and deaths cases was unexpected.
 
 ## Outputs label(s) for input data:
