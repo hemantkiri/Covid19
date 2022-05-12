@@ -20,7 +20,7 @@ Covid-19 is a situation that has affected many people worldwide and has changed 
 https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
 https://www.worldmeters.info/
 
-## Questions the team hopes to answer with the data:
+## Here are some questions to get an answers with this data:
 
 * What is the population of each country?
 * How many people died in each country daily?
