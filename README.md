@@ -42,8 +42,8 @@ https://github.com/hemantkiri/Covid19
 
 ## Takes in data in from above description of the source of data:
 I will be using Regression model from Supervised Learning to find out how quickly Covid-19 will hit to all the coundries in the world?
-Any country in the world does not have any vaccination or any guideline to prevent from Covid-19,
-so prediction is the number of cases will increase on daily bases taht can be visualize per "day_wise.csv" file.
+During this time vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
+so prediction in confirm and deaths cases was unexpected.
 
 ## Outputs label(s) for input data:
 ![Machine_Learning_Model](Machine_Learning_Model.png)
