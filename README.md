@@ -49,6 +49,12 @@ so prediction in confirm and deaths cases was unexpected.
 ## Outputs label(s) for input data:
 ![Machine_Learning_Model](Machine_Learning_Model.png)
 
+## What is the population of each country?
+![World Population](World_Population.png)
+
+## How many people got affected and died from Santa Clara County?
+![Santa Clara County Confirm and Deaths cases](Santa_Clara_Confirm_and_Deaths.png)
+
 ----------------------------------------------------------------------------------------------------------------
 ## Database Integration
 
