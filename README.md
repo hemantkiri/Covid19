@@ -55,6 +55,9 @@ so prediction in confirm and deaths cases was unexpected.
 ## How many people got affected and died from Santa Clara County?
 ![Santa Clara County Confirm and Deaths cases](Santa_Clara_Confirm_and_Deaths.png)
 
+Covid-19 Confirmed cases by state
+![Covid-19 Confirmed cases by state](Covid19_Confirmed_cases_by_state.png)
+
 ----------------------------------------------------------------------------------------------------------------
 ## Database Integration
 
