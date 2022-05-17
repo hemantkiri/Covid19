@@ -29,14 +29,15 @@ https://www.worldmeters.info/
 * How quickly Covid-19 will hit to all countries in the world?
 * How many people got affected and died from Santa Clara County?
 
-## Description of the data exploration phase of the project – As I explored the data from the website, I found a total of six .csv files.
+## Description of the data exploration phase of the project:
+
+As I explored the data from the website, I found a total of six .csv files.
  * country_wise_latest.csv
  * covid_19_clean_complete.csv
  * day_wise.csv
  * full_grouped.csv
  * usa_county_wise.csv
  * worldmeter_data.csv
-
 
 ----------------------------------------------------------------------------------------------------------------
 ## GitHub Repository:
@@ -64,11 +65,14 @@ so prediction in confirm and deaths cases was unexpected.
 ## How many people got affected and died from Santa Clara County?
 ![Santa Clara County Confirm and Deaths cases](Santa_Clara_Confirm_and_Deaths.png)
 
-Covid-19 Confirmed cases by state
+## Covid-19 Confirmed cases by state
 ![Covid-19 Confirmed cases by state](Covid19_Confirmed_cases_by_state.png)
 
-Top_10_Countries_TotalCases
+## Top_10_Countries_TotalCases
 ![Top_10_Countries_TotalCases](Top_10_Countries_TotalCases.png)
+
+## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
+![affected_and_died_weekly_basis](affected_and_died_weekly_basis.png)
 
 ----------------------------------------------------------------------------------------------------------------
 ## Database Integration
