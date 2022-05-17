@@ -39,6 +39,11 @@ As I explored the data from the website, I found a total of six .csv files.
  * usa_county_wise.csv
  * worldmeter_data.csv
 
+## Description of the analysis phase of the project
+Describing about analysis phase of this project became easy after checking all six csv files
+Information.  Number of Covid confirm, deaths, recovered and active cases based on date,
+Country/Region, location of country on world map per longitude and latitude.
+
 ----------------------------------------------------------------------------------------------------------------
 ## GitHub Repository:
    	
