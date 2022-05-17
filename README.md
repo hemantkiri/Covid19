@@ -67,6 +67,9 @@ so prediction in confirm and deaths cases was unexpected.
 Covid-19 Confirmed cases by state
 ![Covid-19 Confirmed cases by state](Covid19_Confirmed_cases_by_state.png)
 
+Top_10_Countries_TotalCases
+![Top_10_Countries_TotalCases](Top_10_Countries_TotalCases.png)
+
 ----------------------------------------------------------------------------------------------------------------
 ## Database Integration
 
