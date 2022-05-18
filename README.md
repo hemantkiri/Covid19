@@ -3,7 +3,7 @@
 ## Content
 ## Selected topic: Coronavirus (Covid-19).
 
-![Coronavirus](Coronavirus.jpeg)
+![Coronavirus](https://github.com/hemantkiri/Images/Coronavirus.jpeg)
 Covid-19, an acute respiratory illness in humans caused by coronavirus. Virus is capable of producing severe symptoms and in some cases death,
 especially in older people and those with underlying health condition. It was originally identified in Wuhan, China in 2019 and because pandemic in 2020.
 Since the virus has shown evidence of human-to-human transmission, by the end of January 2020, approximately over 8000 cases have been confirmed.
