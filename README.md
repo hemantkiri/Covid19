@@ -63,9 +63,6 @@ so prediction in confirm and deaths cases was unexpected.
 ## What is the population of each country?
 ![World Population](/Images/World_Population.png)
 
-## How many people got affected and died from Santa Clara County?
-![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
-
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
 ![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
@@ -74,6 +71,9 @@ so prediction in confirm and deaths cases was unexpected.
 
 ## Covid-19 Confirmed cases by state:
 ![Covid-19 Confirmed cases by state](/Images/Covid19_Confirmed_cases_by_state.png)
+
+## How many people got affected and died from Santa Clara County?
+![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
 
 ----------------------------------------------------------------------------------------------------------------
 ### SQL:
