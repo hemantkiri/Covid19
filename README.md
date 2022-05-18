@@ -62,30 +62,30 @@ During the fiest seven months of 2020, vaccination was not found and any guideli
 so prediction in confirm and deaths cases was unexpected.
 
 ## Outputs label(s) for input data:
-![Machine_Learning_Model](Machine_Learning_Model.png)
+![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
 
 ## What is the population of each country?
-![World Population](World_Population.png)
+![World Population](/Images/World_Population.png)
 
 ## How many people got affected and died from Santa Clara County?
-![Santa Clara County Confirm and Deaths cases](Santa_Clara_Confirm_and_Deaths.png)
+![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
 
 ## Covid-19 Confirmed cases by state
-![Covid-19 Confirmed cases by state](Covid19_Confirmed_cases_by_state.png)
+![Covid-19 Confirmed cases by state](/Images/Covid19_Confirmed_cases_by_state.png)
 
 ## Top_10_Countries_TotalCases
-![Top_10_Countries_TotalCases](Top_10_Countries_TotalCases.png)
+![Top_10_Countries_TotalCases](/Images/Top_10_Countries_TotalCases.png)
 
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
-![affected_and_died_weekly_basis](affected_and_died_weekly_basis.png)
+![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
 ----------------------------------------------------------------------------------------------------------------
 ## Database Integration
 
 ## Sample data that mimics the expected final database structure or schema:
-![Database_Structure](Database_Structure.png)
+![Database_Structure](/Images/Database_Structure.png)
 Also upload "Covid19.sql".
 
 ## Draft machine learning module is connected to the provisional database:
-![Draft_machine_learning](Draft_machine_learning.png)
+![Draft_machine_learning](/Images/Draft_machine_learning.png)
 
