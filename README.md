@@ -15,8 +15,9 @@ Covid-19 is a situation that has affected many people worldwide and has changed 
 
 
 ### Resources:
-https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
-https://www.worldmeters.info/
+* https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
+ 
+* https://www.worldmeters.info/
 
 ### Questions:
 
