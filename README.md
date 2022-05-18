@@ -49,16 +49,15 @@ Country/Region, location of country on world map per longitude and latitude.
 https://github.com/hemantkiri/Covid19
 
 ----------------------------------------------------------------------------------------------------------------	
-### Machine Learning Model:
+### Results:
+## Machine_Learning_Model:
 
-## Takes in data in from above description of the source of data:
 I am using Regression model from Supervised Learning to find "how quickly Covid-19 will hit to all the coundries in the world"?
 
 During the fiest seven months of 2020, vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
 so prediction in confirm and deaths cases was unexpected.
 
-### Results:
-## Machine_Learning_Model:
+
 ![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
 
 ## What is the population of each country?
