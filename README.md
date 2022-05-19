@@ -81,6 +81,5 @@ so prediction in confirm and deaths cases was unexpected.
 ----------------------------------------------------------------------------------------------------------------
 ### SQL:
 
-## Sample data that mimics the expected final database structure or schema:
+## Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
-Also upload "Covid19.sql".
