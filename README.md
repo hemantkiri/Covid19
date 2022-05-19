@@ -91,11 +91,9 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 
 ----------------------------------------------------------------------------------------------------------------
 ### Technologies, languages, tools, and algorithms used throughout the project:
-•	Python (Pandas, matplotlib)
-•	SQL
-•	API
-•	Tableau
-•	Extract, Transform Load
-•	Supervised Machine Learning
 
-
+* Python (Pandas, matplotlib)
+* SQL
+* Tableau
+* Extract, Transform Load
+* Supervised Machine Learning
