@@ -57,8 +57,11 @@ I am using Regression model from Supervised Learning to find "how quickly Covid-
 During the fiest seven months of 2020, vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
 so prediction in confirm and deaths cases was unexpected.
 
-
+## First 10 days of cases result:
 ![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
+
+## Bar chart of Carfirmed cases for 7 months:
+![Bar chart of Carfirmed cases for 7 months](/Images/Draft_machine_learning.png)
 
 ## What is the population of each country?
 ![World Population](/Images/World_Population.png)
@@ -77,12 +80,7 @@ so prediction in confirm and deaths cases was unexpected.
 
 ----------------------------------------------------------------------------------------------------------------
 ### SQL:
-## Database Integration:
 
 ## Sample data that mimics the expected final database structure or schema:
 ![Database_Structure](/Images/Database_Structure.png)
 Also upload "Covid19.sql".
-
-## Draft machine learning module is connected to the provisional database:
-![Draft_machine_learning](/Images/Draft_machine_learning.png)
-
