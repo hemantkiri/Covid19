@@ -84,3 +84,7 @@ so prediction in confirm and deaths cases was unexpected.
 
 ## Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
+
+----------------------------------------------------------------------------------------------------------------
+### Tableau:
+https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
