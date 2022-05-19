@@ -6,6 +6,7 @@ Covid-19, an acute respiratory illness in humans caused by coronavirus. Virus is
 especially in older people and those with underlying health condition. It was originally identified in Wuhan, China in 2019 and because pandemic in 2020.
 Since the virus has shown evidence of human-to-human transmission, by the end of January 2020, approximately over 8000 cases have been confirmed.
 
+
 ## Reason:
 Covid-19 is a situation that has affected many people worldwide and has changed their lifestyles in many ways.
 * Unlimited hours of doctors and nurses’ job duties to save someones' lives.
