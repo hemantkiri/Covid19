@@ -7,13 +7,8 @@ especially in older people and those with underlying health condition. It was or
 Since the virus has shown evidence of human-to-human transmission, by the end of January 2020, approximately over 8000 cases have been confirmed.
 
 
-## Reason:
-Covid-19 is a situation that has affected many people worldwide and has changed their lifestyles in many ways.
-* Unlimited hours of doctors and nurses’ job duties to save someones' lives.
-* Online schools classes and exames.
-* Online work.
-* Online business increase but small businesses got closed.
-
+### Reason:
+The purpose of this project is to understand the influence of the Covid-19 pandemic on social behavior.
 
 ### Resources:
 * https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
@@ -67,6 +62,7 @@ so prediction in confirm and deaths cases was unexpected.
 ## What is the population of each country?
 ![World Population](/Images/World_Population.png)
 
+### Pulls the data from the database using sqlalchemy:
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
 ![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
