@@ -95,5 +95,6 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Python (Pandas, matplotlib)
 * SQL
 * Tableau
+* pgAdmin
 * Extract, Transform Load
 * Supervised Machine Learning
