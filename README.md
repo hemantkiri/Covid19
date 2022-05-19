@@ -88,3 +88,14 @@ so prediction in confirm and deaths cases was unexpected.
 ----------------------------------------------------------------------------------------------------------------
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
+
+----------------------------------------------------------------------------------------------------------------
+### Technologies, languages, tools, and algorithms used throughout the project:
+•	Python (Pandas, matplotlib)
+•	SQL
+•	API
+•	Tableau
+•	Extract, Transform Load
+•	Supervised Machine Learning
+
+
