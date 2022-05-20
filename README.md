@@ -75,6 +75,15 @@ so prediction in confirm and deaths cases was unexpected.
 ## How many people got affected and died from Santa Clara County?
 ![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
 
+Top 20 Countries TotalCases
+![Top_20_Countries_TotalCases](/Images/Top_20_Countries_TotalCases.png)
+
+Top 20 Countries TotalDeaths
+![Top_20_Countries_TotalDeaths](/Images/Top_20_Countries_TotalDeaths.png)
+
+Population to Tests Done ratio
+![Population_to_Tests_Done_ratio](/Images/Population_to_Tests_Done_ratio.png)
+
 ----------------------------------------------------------------------------------------------------------------
 ### SQL:
 
