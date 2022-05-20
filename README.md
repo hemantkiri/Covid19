@@ -44,11 +44,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ## What is the population of each country?
 ![World Population](/Images/World_Population.png)
 
-### Pulls the data from the database using sqlalchemy:
-
-## Covid-19 Confirmed cases by state:
-![Covid-19 Confirmed cases by state](/Images/Covid19_Confirmed_cases_by_state.png)
-
 ## How many people got affected and died from Santa Clara County?
 ![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
 
