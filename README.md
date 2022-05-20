@@ -11,6 +11,7 @@ Most people infected with the virus will experience mild to moderate respiratory
 The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance.
 
 The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.
+
 from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Reason:
@@ -18,18 +19,18 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 * Is it only China who's the most affected?
 * Or most of European countries because of this virus?
 * How many people got affected and died from each country on a weekly basis throughout the world?
-* How many people got affected County wise?
+* How many people got affected from County wise?
 
 ### Resources:
 * https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
  
 * https://www.worldmeters.info/
 
-*  Cases from last week of Jan thru end of July 2020 with Country/Region - full_grouped.csv
-*  Cases from last week of Jan thru end of July 2020 with Country/Region, Latitude and Longitude - covid19clean_complete.csv
+*  Cases from 01/22/2020 to 7/27/2020 with Country/Region - full_grouped.csv
+*  Cases from 01/22/2020 to 7/27/2020 with Country/Region, Latitude and Longitude - covid19clean_complete.csv
 *  Cases with Country/Region and weekly changes - countrywiselatest.csv
-*  Cases from last week of Jan thru end of July 2020 with No. of countries - day_wise.csv
-*  Cases from last week of Jan thru end of July 2020 County wise - usacountywise.csv
+*  Cases from 01/22/2020 to 7/27/2020 with No. of countries - day_wise.csv
+*  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
 *  Current data from https://www.worldometers.info/ - worldometer_data.csv
 
 ### Results:
