@@ -66,6 +66,7 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ## Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
 
+## Database using pgAdmin:
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
 ![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
