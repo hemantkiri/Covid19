@@ -1,57 +1,38 @@
 
-## Selected topic: Coronavirus (Covid-19).
+### Coronavirus (Covid-19).
 
 ![Coronavirus](/Images/Coronavirus.jpeg)
-Covid-19, an acute respiratory illness in humans caused by coronavirus. Virus is capable of producing severe symptoms and in some cases death,
-especially in older people and those with underlying health condition. It was originally identified in Wuhan, China in 2019 and because pandemic in 2020.
-Since the virus has shown evidence of human-to-human transmission, by the end of January 2020, approximately over 8000 cases have been confirmed.
 
+### Overview:
+Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
+
+Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. 
+
+The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance.
+
+The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.
+from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Reason:
-The purpose of this project is to understand the influence of the Covid-19 pandemic on social behavior.
+* The purpose of this project is to understand the influence of the Covid-19 pandemic on social behavior.
+* Is it only China who's the most affected?
+* Or most of European countries because of this virus?
+* How many people got affected and died from each country on a weekly basis throughout the world?
+* How many people got affected County wise?
 
 ### Resources:
 * https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
  
 * https://www.worldmeters.info/
 
-### Questions:
+*  Cases from last week of Jan thru end of July 2020 with Country/Region - full_grouped.csv
+*  Cases from last week of Jan thru end of July 2020 with Country/Region, Latitude and Longitude - covid19clean_complete.csv
+*  Cases with Country/Region and weekly changes - countrywiselatest.csv
+*  Cases from last week of Jan thru end of July 2020 with No. of countries - day_wise.csv
+*  Cases from last week of Jan thru end of July 2020 County wise - usacountywise.csv
+*  Current data from https://www.worldometers.info/ - worldometer_data.csv
 
-* What is the population of each country?
-* How many people died in each country daily?
-* How many people got effected daily?
-* How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
-* How quickly Covid-19 will hit to all countries in the world?
-* How many people got affected and died from Santa Clara County?
-
-## Exploration phase of the project:
-
-As I explored the data from the website, I found a total of six .csv files.
- * country_wise_latest.csv
- * covid_19_clean_complete.csv
- * day_wise.csv
- * full_grouped.csv
- * usa_county_wise.csv
- * worldmeter_data.csv
-
-## Analysis phase of the project:
-Describing about analysis phase of this project became easy after checking all six csv files
-Information.  Number of Covid confirm, deaths, recovered and active cases based on date,
-Country/Region, location of country on world map per longitude and latitude.
-
-----------------------------------------------------------------------------------------------------------------
-## GitHub Repository:
-
-https://github.com/hemantkiri/Covid19
-
-----------------------------------------------------------------------------------------------------------------	
 ### Results:
-## Machine_Learning_Model:
-
-I am using Regression model from Supervised Learning to find "how quickly Covid-19 will hit to all the coundries in the world"?
-
-During the fiest seven months of 2020, vaccination was not found and any guideline to prevent from Covid-19 was not inplace,
-so prediction in confirm and deaths cases was unexpected.
 
 ## First 10 days of cases result:
 ![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
@@ -66,35 +47,29 @@ so prediction in confirm and deaths cases was unexpected.
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
 ![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
-## Top_10_Countries_TotalCases:
-![Top_10_Countries_TotalCases](/Images/Top_10_Countries_TotalCases.png)
-
 ## Covid-19 Confirmed cases by state:
 ![Covid-19 Confirmed cases by state](/Images/Covid19_Confirmed_cases_by_state.png)
 
 ## How many people got affected and died from Santa Clara County?
 ![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
 
-Top 20 Countries TotalCases
+## Top 20 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_20_Countries_TotalCases.png)
 
-Top 20 Countries TotalDeaths
+## Top 20 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_20_Countries_TotalDeaths.png)
 
-Population to Tests Done ratio
+## Population to Tests Done ratio
 ![Population_to_Tests_Done_ratio](/Images/Population_to_Tests_Done_ratio.png)
 
-----------------------------------------------------------------------------------------------------------------
 ### SQL:
 
 ## Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
 
-----------------------------------------------------------------------------------------------------------------
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
 
-----------------------------------------------------------------------------------------------------------------
 ### Technologies, languages, tools, and algorithms used throughout the project:
 
 * Python (Pandas, matplotlib)
@@ -104,7 +79,6 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Extract, Transform Load
 * Supervised Machine Learning
 
------------------------------------------------------------------------------------------------------------
-### Google Slides presentation:
+### Google Slides:
 
 https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtjoCw/edit#slide=id.g11c6d529e6e_0_15
