@@ -45,8 +45,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ![World Population](/Images/World_Population.png)
 
 ### Pulls the data from the database using sqlalchemy:
-## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
-![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
 ## Covid-19 Confirmed cases by state:
 ![Covid-19 Confirmed cases by state](/Images/Covid19_Confirmed_cases_by_state.png)
@@ -67,6 +65,9 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ## Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
+
+## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
+![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
