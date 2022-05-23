@@ -35,9 +35,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Results:
 
-## First 10 days of cases result:
-![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
-
 ## Bar chart of Carfirmed cases for 7 months:
 ![Bar chart of Carfirmed cases for 7 months](/Images/Draft_machine_learning.png)
 
