@@ -35,6 +35,17 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Results:
 
+## Highest covid total cases of the top 5 countries
+
+| Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered |
+| :----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |
+| USA | North America | 3.311981e+08 | 5032179 | NaN | 162804.0 | NaN | 2576668.0 | NaN |
+| Brazil | South America | 2.127107e+08 | 2917562 | NaN | 98644.0 | NaN | 2047660.0 | NaN |
+| India | Asia | 1.381345e+09 | 2025409 | NaN | 41638.0 | NaN | 1377384.0 | NaN |
+| Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN |
+| South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN |
+
+
 ## First 10 days of cases result:
 ![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
 
