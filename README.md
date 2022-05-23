@@ -35,17 +35,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Results:
 
-## Highest covid total cases of the top 5 countries
-
-| Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered |
-| :----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |
-| USA | North America | 3.311981e+08 | 5032179 | NaN | 162804.0 | NaN | 2576668.0 | NaN |
-| Brazil | South America | 2.127107e+08 | 2917562 | NaN | 98644.0 | NaN | 2047660.0 | NaN |
-| India | Asia | 1.381345e+09 | 2025409 | NaN | 41638.0 | NaN | 1377384.0 | NaN |
-| Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN |
-| South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN |
-
-
 ## First 10 days of cases result:
 ![Machine_Learning_Model](/Images/Machine_Learning_Model.png)
 
@@ -53,9 +42,25 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ![Bar chart of Carfirmed cases for 7 months](/Images/Draft_machine_learning.png)
 
 ## Highest covid total cases of the top 5 countries
+
+| Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered | ActiveCases | Serious,Critical | Tot Cases/1M pop | Deaths/1M pop | TotalTests | Tests/1M pop | WHO Region |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| USA | North America | 3.311981e+08 | 5032179 | NaN | 162804.0 | NaN | 2576668.0 | NaN | 2292707 | 18296 | 15194 | 492 | 63139605 | 190640 | Americas |
+| Brazil | South America | 2.127107e+08 | 2917562 | NaN | 98644.0 | NaN | 2047660.0 | NaN | 771258 | 8318 | 13716 | 464 | 13206188 | 62085 | Americas |
+| India | Asia | 1.381345e+09 | 2025409 | NaN | 41638.0 | NaN | 1377384.0 | NaN | 606387 | 8944 | 1466 | 30 | 22149351 | 16035 | South-EastAsia |
+| Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN | 180931 | 2300 | 5974 | 100 | 29716907 | 203623 | Europe |
+| South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN | 141264 | 539 | 9063 | 162 | 3149807 | 53044 | Africa |
 Highest_covid_cases_of_the_top_5contries.ipynb
 
 ## Number of confirmed and deaths cases from Santa Clara county from 7/23 - 7/27/2020
+
+| UID | iso2 | iso3 | code3 | FIPS | Admin2 | Province_State | Country_Region | Lat | Long_ | Combined_Key | Date | Confirmed | Deaths |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/23/20 | 8533 | 181 |
+| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/24/20 | 8719 | 183 |
+| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/25/20 | 8833 | 184 |
+| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/26/20 | 9041 | 184 |
+| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/27/20 | 9215 | 184 |
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
 ## Top 20 Countries TotalCases
