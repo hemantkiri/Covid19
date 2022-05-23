@@ -41,11 +41,11 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ## Bar chart of Carfirmed cases for 7 months:
 ![Bar chart of Carfirmed cases for 7 months](/Images/Draft_machine_learning.png)
 
-## What is the population of each country?
-![World Population](/Images/World_Population.png)
+## Highest covid total cases of the top 5 countries
+Highest_covid_cases_of_the_top_5contries.ipynb
 
-## How many people got affected and died from Santa Clara County?
-![Santa Clara County Confirm and Deaths cases](/Images/Santa_Clara_Confirm_and_Deaths.png)
+## Number of confirmed and deaths cases from Santa Clara county from 7/23 - 7/27/2020
+Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
 ## Top 20 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_20_Countries_TotalCases.png)
