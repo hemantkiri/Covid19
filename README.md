@@ -50,6 +50,7 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 | India | Asia | 1.381345e+09 | 2025409 | NaN | 41638.0 | NaN | 1377384.0 | NaN | 606387 | 8944 | 1466 | 30 | 22149351 | 16035 | South-EastAsia |
 | Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN | 180931 | 2300 | 5974 | 100 | 29716907 | 203623 | Europe |
 | South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN | 141264 | 539 | 9063 | 162 | 3149807 | 53044 | Africa |
+
 Highest_covid_cases_of_the_top_5contries.ipynb
 
 ## Number of confirmed and deaths cases from Santa Clara county from 7/23 - 7/27/2020
@@ -61,6 +62,7 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 | 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/25/20 | 8833 | 184 |
 | 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/26/20 | 9041 | 184 |
 | 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/27/20 | 9215 | 184 |
+
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
 ## Top 20 Countries TotalCases
