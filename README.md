@@ -65,6 +65,9 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ## How many people got affected on a weekly basis and how many people died from each country on a weekly basis?
 ![affected_and_died_weekly_basis](/Images/affected_and_died_weekly_basis.png)
 
+## Highest Deaths in top 20 countries
+![Highest Deaths in top 20 countries](/Images/Highest_Deaths_20countries.numbers)
+
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
 
