@@ -99,10 +99,8 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Supervised Machine Learning
 
 ### Machine Learning:
-## we will focus mainly on using supervised machine learning for classification:
-
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
-
+![Linear Regression](Linear_Regression.png)
 
 ### Google Slides:
 
