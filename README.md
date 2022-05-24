@@ -35,9 +35,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Results:
 
-## Bar chart of Carfirmed cases for 7 months:
-![Bar chart of Carfirmed cases for 7 months](/Images/Draft_machine_learning.png)
-
 ## Highest covid total cases of the top 5 countries
 
 | Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered | ActiveCases | Serious,Critical | Tot Cases/1M pop | Deaths/1M pop | TotalTests | Tests/1M pop | WHO Region |
