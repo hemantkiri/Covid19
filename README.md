@@ -16,10 +16,11 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Reason:
 * The purpose of this project is to understand the influence of the Covid-19 pandemic on social behavior.
-* Is it only China who's the most affected?
-* Or most of European countries because of this virus?
-* How many people got affected and died from each country on a weekly basis throughout the world?
-* How many people got affected from County wise?
+* What were the most effected countries because of this virus?
+* How many people got affected and died from each country throughout the world?
+* How did the virus effect the US economy?
+* Which sectors were the most effected, negatively or positively?
+* Which sector had the quickest bounce back?
 
 ### Resources:
 * https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
@@ -59,10 +60,10 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
-## Top 20 Countries TotalCases
+## Top 5 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
-## Top 20 Countries TotalDeaths
+## Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
 ## Population to Tests Done ratio
