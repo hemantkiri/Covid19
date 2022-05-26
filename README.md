@@ -72,7 +72,7 @@ Santa_Clara_cases_from_07232020_to_07272020.ipynb
 ## Continent wise recovered
 ![Continent wise recovered](/Images/continent_wise_recovered.png)
 
-## TotalCases, TotalRecovered and TotalTests
+## TotalCases and TotalTests
 ![TotalCases, TotalRecovered and TotalTests](/Images/TotalCases_TotalRecovered_TotalTests.png)
 
 ### SQL:
@@ -94,6 +94,9 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Supervised Machine Learning
 
 ### Machine Learning:
+
+Machine Learning.ipynb
+
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
 
 ## Population vs TotalCases regression
