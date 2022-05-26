@@ -95,7 +95,12 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 
 ### Machine Learning:
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
-![Linear Regression](Linear_Regression.png)
+
+## Population vs TotalCases regression
+![Population vs TotalCases](/Images/Population_vs_TotalCases_regression.png)
+
+## Population vs DeathsCases regression
+![Population vs DeathsCases](/Images/Population_vs_DeathsCases_regression.png)
 
 ### Google Slides:
 
