@@ -69,6 +69,12 @@ Santa_Clara_cases_from_07232020_to_07272020.ipynb
 ## Population to Tests Done ratio
 ![Population_to_Tests_Done_ratio](/Images/Population_to_Tests_Done_ratio.png)
 
+## Continent wise recovered
+![Continent wise recovered](/Images/continent_wise_recovered.png)
+
+## TotalCases, TotalRecovered and TotalTests
+![TotalCases, TotalRecovered and TotalTests](/Images/TotalCases_TotalRecovered_TotalTests.png)
+
 ### SQL:
 
 ## Database schema:
