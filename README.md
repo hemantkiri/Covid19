@@ -75,6 +75,9 @@ Santa_Clara_cases_from_07232020_to_07272020.ipynb
 ## TotalCases and TotalTests
 ![TotalCases, TotalRecovered and TotalTests](/Images/TotalCases_TotalRecovered_TotalTests.png)
 
+## Active Cases
+![Active Cases](/Images/Active.png)
+
 ### SQL:
 
 ## Database schema:
