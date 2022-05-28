@@ -60,11 +60,7 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
-## Top 5 Countries TotalCases
-![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
-## Top 5 Countries TotalDeaths
-![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
 ## Population to Tests Done ratio
 ![Population_to_Tests_Done_ratio](/Images/Population_to_Tests_Done_ratio.png)
