@@ -22,18 +22,6 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 * Which sectors were the most effected, negatively or positively?
 * Which sector had the quickest bounce back?
 
-### Resources:
-* https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
- 
-* https://www.worldmeters.info/
-
-*  Cases from 01/22/2020 to 7/27/2020 with Country/Region - full_grouped.csv
-*  Cases from 01/22/2020 to 7/27/2020 with Country/Region, Latitude and Longitude - covid19clean_complete.csv
-*  Cases with Country/Region and weekly changes - countrywiselatest.csv
-*  Cases from 01/22/2020 to 7/27/2020 with No. of countries - day_wise.csv
-*  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
-*  Current data from https://www.worldometers.info/ - worldometer_data.csv
-
 ### Results:
 
 ## Highest covid total cases of the top 5 countries
@@ -112,3 +100,15 @@ Did country with higher population experience higher numbers of confirmed covid 
 
 https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtjoCw/edit#slide=id.g11c6d529e6e_0_15
 
+### Resources:
+* https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
+ 
+* https://www.worldmeters.info/
+
+*  Cases from 01/22/2020 to 7/27/2020 with Country/Region - full_grouped.csv
+*  Cases from 01/22/2020 to 7/27/2020 with Country/Region, Latitude and Longitude - covid19clean_complete.csv
+*  Cases with Country/Region and weekly changes - countrywiselatest.csv
+*  Cases from 01/22/2020 to 7/27/2020 with No. of countries - day_wise.csv
+*  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
+*  Current data from https://www.worldometers.info/ - worldometer_data.csv
+*  
