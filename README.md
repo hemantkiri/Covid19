@@ -54,9 +54,6 @@ Santa_Clara_cases_from_07232020_to_07272020.ipynb
 ## Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
-## Population to Tests Done ratio
-![Population_to_Tests_Done_ratio](/Images/Population_to_Tests_Done_ratio.png)
-
 ## Continent wise recovered
 ![Continent wise recovered](/Images/continent_wise_recovered.png)
 
@@ -112,4 +109,34 @@ https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtj
 *  Cases from 01/22/2020 to 7/27/2020 with No. of countries - day_wise.csv
 *  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
 *  Current data from https://www.worldometers.info/ - worldometer_data.csv
-*  
+
+## worldometer_data.csv - Includes the following columns
+Country/Region - Name of country/region
+Continent - A continent is any of several large landmasses
+Population - The total number of humans currently living
+Total Cases - Total number of cases
+New Cases - Number of new cases
+Total Deaths - Total number of deaths
+Total Recovered - Total number of recovered cases
+Active Cases - Total number of active cases
+Serious, Critical - Total number of serious or critical cases
+Tot Cases/1M pop - Total number of cases per 1 million population
+Deaths/1M pop - Total number of deaths per 1 million population
+Total Tests - Total number of test cases
+Tests/1M pop - Total number of test cases per 1 million population
+WHO Region - The World Health Organization divides the world into six WHO regions,
+
+## usa_county_wise.csv - Includes the following columns
+UID - A unique identifier numeric string for country
+iso2 - International Standard for direction
+iso3 - character code for the country where the site is located. 
+FIPS - Federal Information Processing Standards
+Admin2 - 
+Province State - Name of province/state of countries
+Country/Region - Name of country/region
+Lat - The latitude code
+Long - The longitude code
+Combine key - 
+Date - Case date
+Confirmed - Number of Confirmed
+Deaths - Number of deaths
