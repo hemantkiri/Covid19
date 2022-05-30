@@ -58,7 +58,7 @@ for i in columns:
     fig.update_layout(
     uniformtext=dict(minsize=16, mode='hide'),
     margin = dict(t=30, l=5, r=5, b=5))
-    ```
+```
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
 
