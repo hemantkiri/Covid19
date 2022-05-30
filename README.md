@@ -49,6 +49,16 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
 ## Top 5 Countries TotalCases
+```
+import plotly.express as px
+columns = ['TotalCases']
+for i in columns:
+    fig=px.treemap(world_data_df1.iloc[0:5],values=i,path=['Country/Region'],template="plotly_dark",
+                   title="<b>Top 5 Countries {}</b>".format(i))
+    fig.update_layout(
+    uniformtext=dict(minsize=16, mode='hide'),
+    margin = dict(t=30, l=5, r=5, b=5))
+    ```
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
 
