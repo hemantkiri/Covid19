@@ -119,6 +119,19 @@ Machine Learning.ipynb
 
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
 
+```
+# Prediction value
+def get_regression_predictions(input_features,intercept,slope):
+    predicted_values = input_features*slope + intercept
+    return predicted_values
+ 
+# Predicting about 1% higher than highest country population for estimated total cases
+my_predict_country_population = 1500000000
+estimated_totalcases = get_regression_predictions(my_predict_country_population,
+                        regr.intercept_[0],regr.coef_[0][0])
+print("Estimated Totalcases :" ,estimated_totalcases)
+```
+
 ## Population vs TotalCases regression
 ```
 # Plotting regrassion line
@@ -140,6 +153,8 @@ plt.ylabel("TotalDeaths")
 plt.title("Population vs Total Deaths")
 ```
 ![Population vs DeathsCases](/Images/Population_vs_TotalDeaths_regression.png)
+
+
 
 ### Google Slides:
 
