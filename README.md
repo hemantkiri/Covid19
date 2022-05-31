@@ -64,8 +64,6 @@ for i in columns:
 ## Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
-![Continent wise recovered](/Images/continent_wise_recovered.png)
-
 ## Total Cases recovered by_WHO Region
 ![Total Cases recovered by_WHO Region](/Images/Total_Cases_recovered_by_WHO_Region.png)
 
