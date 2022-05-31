@@ -52,6 +52,20 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 
 Santa_Clara_cases_from_07232020_to_07272020.ipynb
 
+| iso3 | Admin2 | Province_State | Date | Confirmed | Deaths|
+| :----------: | :----------: | :----------: | :----------: | :----------:| :----------:|
+| USA | Santa Clara | California | 7/18/20 | 7300 | 177 |
+| USA | Santa Clara | California | 7/19/20 | 7456 | 177 |
+| USA | Santa Clara | California | 7/20/20 | 7795 | 178 |
+| USA | Santa Clara | California | 7/21/20 | 8046 | 178 |
+| USA | Santa Clara | California | 7/22/20 | 8321 | 180 |
+| USA | Santa Clara | California | 7/23/20 | 8533 | 183 |
+| USA | Santa Clara | California | 7/24/20 | 8719 | 183 |
+| USA | Santa Clara | California | 7/25/20 | 8833 | 184 |
+| USA | Santa Clara | California | 7/26/20 | 9041 | 184 |
+| USA | Santa Clara | California | 7/27/20 | 9215 | 184 |
+
+
 ## Top 5 Countries TotalCases
 ```
 import plotly.express as px
