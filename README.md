@@ -120,9 +120,25 @@ Machine Learning.ipynb
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
 
 ## Population vs TotalCases regression
+```
+# Plotting regrassion line
+plt.scatter(train["Population"], train ["TotalCases"], color='blue')
+plt.plot(train_x, regr.coef_*train_x + regr.intercept_, '-r')
+plt.xlabel("Population")
+plt.ylabel("TotalCases")
+plt.title("Population vs Total Cases")
+```
 ![Population vs TotalCases](/Images/Population_vs_TotalCases_regression.png)
 
 ## Population vs DeathsCases regression
+```
+# Plotting regrassion line
+plt.scatter(train["Population"], train ["TotalDeaths"], color='blue')
+plt.plot(train_x, regr.coef_*train_x + regr.intercept_, '-r')
+plt.xlabel("Population")
+plt.ylabel("TotalDeaths")
+plt.title("Population vs Total Deaths")
+```
 ![Population vs DeathsCases](/Images/Population_vs_DeathsCases_regression.png)
 
 ### Google Slides:
