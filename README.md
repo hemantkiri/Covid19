@@ -39,18 +39,14 @@ world_data_df1.head(5)
 
 Highest_covid_cases_of_the_top_5contries.ipynb
 
-## Number of confirmed and deaths cases from Santa Clara county from 7/23 - 7/27/2020
-
-
-| UID | iso2 | iso3 | code3 | FIPS | Admin2 | Province_State | Country_Region | Lat | Long_ | Combined_Key | Date | Confirmed | Deaths |
-| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/23/20 | 8533 | 181 |
-| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/24/20 | 8719 | 183 |
-| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/25/20 | 8833 | 184 |
-| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/26/20 | 9041 | 184 |
-| 84006085 | US | USA | 840 | 6085.0 | Santa Clara | California | US | 37.231049 | -121.697046 | Santa Clara, California, US | 7/27/20 | 9215 | 184 |
-
-Santa_Clara_cases_from_07232020_to_07272020.ipynb
+## Number of confirmed and deaths cases from Santa Clara county from 7/18/2020 - 7/27/2020
+```
+world_data_df2 = pd.read_csv("/Users/hemantkiri/Desktop/Covid19/Resources/usa_county_wise.csv")
+world_data_df2 = world_data_df2[["iso3", "Admin2", "Province_State", "Date", "Confirmed", "Deaths"]]
+world_data_df3 = world_data_df2[world_data_df2["Admin2"] == "Santa Clara"]
+world_data_df3.reset_index(drop=True,inplace=True)
+world_data_df3.tail(10)
+```
 
 | iso3 | Admin2 | Province_State | Date | Confirmed | Deaths|
 | :----------: | :----------: | :----------: | :----------: | :----------:| :----------:|
