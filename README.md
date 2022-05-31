@@ -75,9 +75,23 @@ for i in columns:
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
 ## Total Cases recovered by_WHO Region
+```
+sns.barplot(x=continent_wise_recovered.index, y = continent_wise_recovered)
+plt.xticks(rotation=75);
+plt.title("Total Cases recovered by WHO Region")
+```
 ![Total Cases recovered by_WHO Region](/Images/Total_Cases_recovered_by_WHO_Region.png)
 
 ## Active Cases
+```
+labels=world_data_df1[0:5]['Country/Region'].values
+cases=['TotalCases','TotalDeaths','TotalRecovered','ActiveCases']
+for i in cases:
+    fig=px.pie(world_data_df1.iloc[0:5],values=i,names=labels,template="plotly_dark",
+hole=0.3,title=" {} Record of WHO Region of 5 worst effected countries ".
+format(i))
+fig.update_layout(uniformtext=dict(minsize=20, mode='hide'),margin = dict(t=50, l=25, r=25,b=25))
+```
 ![Active Cases](/Images/ActiveCases.png)
 
 
