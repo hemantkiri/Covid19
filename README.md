@@ -66,8 +66,8 @@ for i in columns:
 
 ![Continent wise recovered](/Images/continent_wise_recovered.png)
 
-## TotalCases and TotalTests
-![TotalCases, TotalRecovered and TotalTests](/Images/TotalCases_TotalRecovered_TotalTests.png)
+## Total Cases recovered by_WHO Region
+![Total Cases recovered by_WHO Region](/Images/Total_Cases_recovered_by_WHO_Region.png)
 
 ## Active Cases
 ![Active Cases](/Images/ActiveCases.png)
