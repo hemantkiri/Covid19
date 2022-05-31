@@ -15,10 +15,9 @@ The virus can spread from an infected person’s mouth or nose in small liquid p
 from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
 ### Reason:
-* The purpose of this project is to understand the influence of the Covid-19 pandemic on social behavior.
+
 * What were the most effected countries because of this virus?
 * How many people got affected and died from each country throughout the world?
-* How did the virus effect the US economy?
 * Which sectors were the most effected, negatively or positively?
 * Which sector had the quickest bounce back?
 
