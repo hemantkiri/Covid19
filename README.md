@@ -24,6 +24,10 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 ### Results:
 
 ## Highest covid total cases of the top 5 countries
+```
+world_data_df1 = pd.read_csv("/Resources/worldometer_data.csv")
+world_data_df1.head(5)
+```
 
 | Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered | ActiveCases | Serious,Critical | Tot Cases/1M pop | Deaths/1M pop | TotalTests | Tests/1M pop | WHO Region |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -36,6 +40,7 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 Highest_covid_cases_of_the_top_5contries.ipynb
 
 ## Number of confirmed and deaths cases from Santa Clara county from 7/23 - 7/27/2020
+
 
 | UID | iso2 | iso3 | code3 | FIPS | Admin2 | Province_State | Country_Region | Lat | Long_ | Combined_Key | Date | Confirmed | Deaths |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -118,6 +123,7 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 Machine Learning.ipynb
 
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
+How many cases and deaths can be predicted for a major virus in the future?
 
 ```
 # Prediction value
