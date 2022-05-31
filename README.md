@@ -62,6 +62,16 @@ for i in columns:
 
 
 ## Top 5 Countries TotalDeaths
+```
+import plotly.express as px
+columns = ['TotalDeaths']
+for i in columns:
+    fig=px.treemap(world_data_df1.iloc[0:5],values=i,path=['Country/Region'],template="plotly_dark",
+                   title="<b>Top 5 Countries {}</b>".format(i))
+    fig.update_layout(
+    uniformtext=dict(minsize=11, mode='hide'),
+    margin = dict(t=30, l=5, r=5, b=5))
+ ```
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
 ## Total Cases recovered by_WHO Region
