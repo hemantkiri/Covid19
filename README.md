@@ -41,7 +41,7 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 
 ## Number of confirmed and deaths cases from Santa Clara county from 7/18/2020 - 7/27/2020
 ```
-world_data_df2 = pd.read_csv("/Users/hemantkiri/Desktop/Covid19/Resources/usa_county_wise.csv")
+world_data_df2 = pd.read_csv("/Resources/usa_county_wise.csv")
 world_data_df2 = world_data_df2[["iso3", "Admin2", "Province_State", "Date", "Confirmed", "Deaths"]]
 world_data_df3 = world_data_df2[world_data_df2["Admin2"] == "Santa Clara"]
 world_data_df3.reset_index(drop=True,inplace=True)
