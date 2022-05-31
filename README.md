@@ -139,7 +139,7 @@ plt.xlabel("Population")
 plt.ylabel("TotalDeaths")
 plt.title("Population vs Total Deaths")
 ```
-![Population vs DeathsCases](/Images/Population_vs_DeathsCases_regression.png)
+![Population vs DeathsCases](/Images/Population_vs_DeathsCases_regression.png.png)
 
 ### Google Slides:
 
