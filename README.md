@@ -65,7 +65,14 @@ for i in columns:
 ## Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
-## Continent wise recovered
+## Total Cases by Countries
+```
+sns.barplot(x = top_cases_countries["Country/Region"],y = top_cases_countries.TotalCases)
+plt.xticks(rotation = 75);
+```
+![Total Cases by Countries](/Images/Total_Cases_by_Countries.png)
+
+
 ![Continent wise recovered](/Images/continent_wise_recovered.png)
 
 ## TotalCases and TotalTests
