@@ -48,7 +48,7 @@ world_data_df3.reset_index(drop=True,inplace=True)
 world_data_df3.tail(10)
 ```
 
-| iso3 | Admin2 | Province_State | Date | Confirmed | Deaths|
+| Country | County | State | Date | Confirmed | Deaths|
 | :----------: | :----------: | :----------: | :----------: | :----------:| :----------:|
 | USA | Santa Clara | California | 7/18/20 | 7300 | 177 |
 | USA | Santa Clara | California | 7/19/20 | 7456 | 177 |
