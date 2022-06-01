@@ -61,6 +61,9 @@ world_data_df3.tail(10)
 | USA | Santa Clara | California | 7/26/20 | 9041 | 184 |
 | USA | Santa Clara | California | 7/27/20 | 9215 | 184 |
 
+![Santa Clara county Confirm cases](/Images/Santa_Clara_county_Confirmed_Cases.png)
+![Santa Clara county Deaths cases](/Images/Santa_Clara_county_Deaths_Cases.png)
+
 
 ## Top 5 Countries TotalCases
 ```
