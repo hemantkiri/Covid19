@@ -117,8 +117,30 @@ fig.update_layout(uniformtext=dict(minsize=20, mode='hide'),margin = dict(t=50, 
 total_Population = world_data_df1.Population.sum()
 total_Population
 ```
-6326421290.0
+6,326,421,290.0
 
+
+## What is the total number of cases of covid-19 in the world?
+```
+total_Cases = world_data_df1.TotalCases.sum()
+total_Cases
+```
+19,169,166
+
+
+## What is the total number of deaths from covid-19 worldwide?
+```
+total_Deaths = world_data_df1.TotalDeaths.sum()
+total_Deaths
+```
+713,007.0
+
+## What is total percentage of cases of covid 19 worldwide?
+```
+cases_percentage_worldwide = total_Cases / total_Population * 100
+cases_percentage_worldwide.round(3)
+```
+0.303
 
 
 ### SQL:
