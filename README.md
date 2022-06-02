@@ -112,6 +112,14 @@ fig.update_layout(uniformtext=dict(minsize=20, mode='hide'),margin = dict(t=50, 
 ```
 ![Active Cases](/Images/ActiveCases.png)
 
+## What is total world population?
+```
+total_Population = world_data_df1.Population.sum()
+total_Population
+```
+6326421290.0
+
+
 
 ### SQL:
 
