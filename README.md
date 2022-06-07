@@ -59,8 +59,8 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 
 ### Machine Learning:
 
-# Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
-# How many cases and deaths can be predicted for a major virus in the future?
+### Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
+### How many cases and deaths can be predicted for a major virus in the future?
 
 ### Population vs TotalCases regression
 ![Population vs TotalCases](/Images/Population_vs_TotalCases_regression.png)
