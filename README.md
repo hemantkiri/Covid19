@@ -26,30 +26,8 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 | Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN | 180931 | 2300 | 5974 | 100 | 29716907 | 203623 | Europe |
 | South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN | 141264 | 539 | 9063 | 162 | 3149807 | 53044 | Africa |
 
-Highest_covid_cases_of_the_top_5contries.ipynb
-
-# Santa Clara county Confirmed and Deaths Cases
-
-| Country | County | State | Date | Confirmed | Deaths|
-| :----------: | :----------: | :----------: | :----------: | :----------:| :----------:|
-| USA | Santa Clara | California | 7/18/20 | 7300 | 177 |
-| USA | Santa Clara | California | 7/19/20 | 7456 | 177 |
-| USA | Santa Clara | California | 7/20/20 | 7795 | 178 |
-| USA | Santa Clara | California | 7/21/20 | 8046 | 178 |
-| USA | Santa Clara | California | 7/22/20 | 8321 | 180 |
-| USA | Santa Clara | California | 7/23/20 | 8533 | 183 |
-| USA | Santa Clara | California | 7/24/20 | 8719 | 183 |
-| USA | Santa Clara | California | 7/25/20 | 8833 | 184 |
-| USA | Santa Clara | California | 7/26/20 | 9041 | 184 |
-| USA | Santa Clara | California | 7/27/20 | 9215 | 184 |
-
-![Santa Clara county Confirm cases](/Images/Santa_Clara_county_Confirmed_Cases.png)
-![Santa Clara county Deaths cases](/Images/Santa_Clara_county_Deaths_Cases.png)
-
-
 # Top 5 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
-
 
 # Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
@@ -60,7 +38,7 @@ Highest_covid_cases_of_the_top_5contries.ipynb
 # Active Cases
 ![Active Cases](/Images/ActiveCases.png)
 
-covid cases with reference to date
+# covid cases with reference to date
 ![covid cases with reference to date](/Images/covid_cases_with_reference_to_date.png)
 
 # Database schema:
@@ -70,8 +48,8 @@ covid cases with reference to date
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
 
-# Technologies, languages, tools, and algorithms used throughout the project:
 
+# Technologies, languages, tools, and algorithms used throughout the project:
 * Python (Pandas, matplotlib)
 * SQL
 * Tableau
