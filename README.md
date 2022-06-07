@@ -14,20 +14,9 @@ The virus can spread from an infected person’s mouth or nose in small liquid p
 
 from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
-### Reason:
-
-* What were the most effected countries because of this virus?
-* How many people got affected and died from each country throughout the world?
-* Which sectors were the most effected, negatively or positively?
-* Which sector had the quickest bounce back?
-
 ### Results:
 
-## Highest covid total cases of the top 5 countries
-```
-world_data_df1 = pd.read_csv("/Resources/worldometer_data.csv")
-world_data_df1.head(5)
-```
+# Highest covid total cases of the top 5 countries
 
 | Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered | ActiveCases | Serious,Critical | Tot Cases/1M pop | Deaths/1M pop | TotalTests | Tests/1M pop | WHO Region |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -39,14 +28,7 @@ world_data_df1.head(5)
 
 Highest_covid_cases_of_the_top_5contries.ipynb
 
-## Santa Clara county Confirmed and Deaths Cases
-```
-world_data_df2 = pd.read_csv("/Resources/usa_county_wise.csv")
-world_data_df2 = world_data_df2[["iso3", "Admin2", "Province_State", "Date", "Confirmed", "Deaths"]]
-world_data_df3 = world_data_df2[world_data_df2["Admin2"] == "Santa Clara"]
-world_data_df3.reset_index(drop=True,inplace=True)
-world_data_df3.tail(10)
-```
+# Santa Clara county Confirmed and Deaths Cases
 
 | Country | County | State | Date | Confirmed | Deaths|
 | :----------: | :----------: | :----------: | :----------: | :----------:| :----------:|
@@ -65,97 +47,30 @@ world_data_df3.tail(10)
 ![Santa Clara county Deaths cases](/Images/Santa_Clara_county_Deaths_Cases.png)
 
 
-## Top 5 Countries TotalCases
-```
-import plotly.express as px
-columns = ['TotalCases']
-for i in columns:
-    fig=px.treemap(world_data_df1.iloc[0:5],values=i,path=['Country/Region'],template="plotly_dark",
-                   title="<b>Top 5 Countries {}</b>".format(i))
-    fig.update_layout(
-    uniformtext=dict(minsize=16, mode='hide'),
-    margin = dict(t=30, l=5, r=5, b=5))
-```
+# Top 5 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
 
-## Top 5 Countries TotalDeaths
-```
-import plotly.express as px
-columns = ['TotalDeaths']
-for i in columns:
-    fig=px.treemap(world_data_df1.iloc[0:5],values=i,path=['Country/Region'],template="plotly_dark",
-                   title="<b>Top 5 Countries {}</b>".format(i))
-    fig.update_layout(
-    uniformtext=dict(minsize=11, mode='hide'),
-    margin = dict(t=30, l=5, r=5, b=5))
- ```
+# Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
-## Total Cases recovered by_WHO Region
-```
-sns.barplot(x=continent_wise_recovered.index, y = continent_wise_recovered)
-plt.xticks(rotation=75);
-plt.title("Total Cases recovered by WHO Region")
-```
+# Total Cases recovered by_WHO Region
 ![Total Cases recovered by_WHO Region](/Images/Total_Cases_recovered_by_WHO_Region.png)
 
-## Active Cases
-```
-labels=world_data_df1[0:5]['Country/Region'].values
-cases=['TotalCases','TotalDeaths','TotalRecovered','ActiveCases']
-for i in cases:
-    fig=px.pie(world_data_df1.iloc[0:5],values=i,names=labels,template="plotly_dark",
-hole=0.3,title=" {} Record of WHO Region of 5 worst effected countries ".
-format(i))
-fig.update_layout(uniformtext=dict(minsize=20, mode='hide'),margin = dict(t=50, l=25, r=25,b=25))
-```
+# Active Cases
 ![Active Cases](/Images/ActiveCases.png)
 
 covid cases with reference to date
 ![covid cases with reference to date](/Images/covid_cases_with_reference_to_date.png)
 
-## What is total world population?
-```
-total_Population = world_data_df1.Population.sum()
-total_Population
-```
-6,326,421,290.0
-
-
-## What is the total number of cases of covid-19 in the world?
-```
-total_Cases = world_data_df1.TotalCases.sum()
-total_Cases
-```
-19,169,166
-
-
-## What is the total number of deaths from covid-19 worldwide?
-```
-total_Deaths = world_data_df1.TotalDeaths.sum()
-total_Deaths
-```
-713,007.0
-
-## What is total percentage of cases of covid 19 worldwide?
-```
-cases_percentage_worldwide = total_Cases / total_Population * 100
-cases_percentage_worldwide.round(3)
-```
-0.303
-
-
-### SQL:
-
-## Database schema:
+# Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
 
 
 ### Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
 
-### Technologies, languages, tools, and algorithms used throughout the project:
+# Technologies, languages, tools, and algorithms used throughout the project:
 
 * Python (Pandas, matplotlib)
 * SQL
@@ -164,49 +79,16 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Extract, Transform Load
 * Supervised Machine Learning
 
-### Machine Learning:
-
-Machine Learning.ipynb
+# Machine Learning:
 
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
 How many cases and deaths can be predicted for a major virus in the future?
 
-```
-# Prediction value
-def get_regression_predictions(input_features,intercept,slope):
-    predicted_values = input_features*slope + intercept
-    return predicted_values
- 
-# Predicting about 1% higher than highest country population for estimated total cases
-my_predict_country_population = 1500000000
-estimated_totalcases = get_regression_predictions(my_predict_country_population,
-                        regr.intercept_[0],regr.coef_[0][0])
-print("Estimated Totalcases :" ,estimated_totalcases)
-```
-
-## Population vs TotalCases regression
-```
-# Plotting regrassion line
-plt.scatter(train["Population"], train ["TotalCases"], color='blue')
-plt.plot(train_x, regr.coef_*train_x + regr.intercept_, '-r')
-plt.xlabel("Population")
-plt.ylabel("TotalCases")
-plt.title("Population vs Total Cases")
-```
+# Population vs TotalCases regression
 ![Population vs TotalCases](/Images/Population_vs_TotalCases_regression.png)
 
-## Population vs DeathsCases regression
-```
-# Plotting regrassion line
-plt.scatter(train["Population"], train ["TotalDeaths"], color='blue')
-plt.plot(train_x, regr.coef_*train_x + regr.intercept_, '-r')
-plt.xlabel("Population")
-plt.ylabel("TotalDeaths")
-plt.title("Population vs Total Deaths")
-```
+# Population vs DeathsCases regression
 ![Population vs DeathsCases](/Images/Population_vs_TotalDeaths_regression.png)
-
-
 
 ### Google Slides:
 
@@ -224,7 +106,7 @@ https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtj
 *  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
 *  Current data from https://www.worldometers.info/ - worldometer_data.csv
 
-## worldometer_data.csv - Includes the following columns
+# worldometer_data.csv - Includes the following columns
 * Country/Region - Name of country/region
 * Continent - A continent is any of several large landmasses
 * Population - The total number of humans currently living
@@ -240,7 +122,7 @@ https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtj
 * Tests/1M pop - Total number of test cases per 1 million population
 * WHO Region - The World Health Organization divides the world into six WHO regions,
 
-## usa_county_wise.csv - Includes the following columns
+# usa_county_wise.csv - Includes the following columns
 * UID - A unique identifier numeric string for country
 * iso2 - International Standard for direction
 * iso3 - character code for the country where the site is located. 
