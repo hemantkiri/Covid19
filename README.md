@@ -1,9 +1,9 @@
 
-### Coronavirus (Covid-19).
+# Coronavirus (Covid-19).
 
 ![Coronavirus](/Images/Coronavirus.jpeg)
 
-### Overview:
+# Overview:
 Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
 
 Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. 
@@ -14,9 +14,9 @@ The virus can spread from an infected person’s mouth or nose in small liquid p
 
 from https://www.who.int/health-topics/coronavirus#tab=tab_1
 
-### Results:
+# Results:
 
-# Highest covid total cases of the top 5 countries
+### Highest covid total cases of the top 5 countries
 
 | Country/Region | Continent | Population | TotalCases | NewCases | TotalDeaths | NewDeaths | TotalRecovered | NewRecovered | ActiveCases | Serious,Critical | Tot Cases/1M pop | Deaths/1M pop | TotalTests | Tests/1M pop | WHO Region |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -26,30 +26,30 @@ from https://www.who.int/health-topics/coronavirus#tab=tab_1
 | Russia | Europe | 1.459409e+08 | 871894 | NaN | 14606.0 | NaN | 676357.0 | NaN | 180931 | 2300 | 5974 | 100 | 29716907 | 203623 | Europe |
 | South Africa | Africa | 5.938157e+07 | 538184 | NaN | 9604.0 | NaN | 387316.0 | NaN | 141264 | 539 | 9063 | 162 | 3149807 | 53044 | Africa |
 
-# Top 5 Countries TotalCases
+### Top 5 Countries TotalCases
 ![Top_20_Countries_TotalCases](/Images/Top_5_Countries_TotalCases.png)
 
-# Top 5 Countries TotalDeaths
+### Top 5 Countries TotalDeaths
 ![Top_20_Countries_TotalDeaths](/Images/Top_5_Countries_TotalDeaths.png)
 
-# Total Cases recovered by_WHO Region
+### Total Cases recovered by_WHO Region
 ![Total Cases recovered by_WHO Region](/Images/Total_Cases_recovered_by_WHO_Region.png)
 
-# Active Cases
+### Active Cases
 ![Active Cases](/Images/ActiveCases.png)
 
-# covid cases with reference to date
+### covid cases with reference to date
 ![covid cases with reference to date](/Images/covid_cases_with_reference_to_date.png)
 
-# Database schema:
+### Database schema:
 ![Database_Structure](/Images/Database_Structure.png)
 
 
-### Tableau:
+## Tableau:
 https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?publish=yes
 
 
-# Technologies, languages, tools, and algorithms used throughout the project:
+### Technologies, languages, tools, and algorithms used throughout the project:
 * Python (Pandas, matplotlib)
 * SQL
 * Tableau
@@ -57,22 +57,22 @@ https://public.tableau.com/app/profile/hemant.kiri/viz/worldmeter_data/Covid-19?
 * Extract, Transform Load
 * Supervised Machine Learning
 
-# Machine Learning:
+### Machine Learning:
 
 Did country with higher population experience higher numbers of confirmed covid cases and covid deaths?
 How many cases and deaths can be predicted for a major virus in the future?
 
-# Population vs TotalCases regression
+### Population vs TotalCases regression
 ![Population vs TotalCases](/Images/Population_vs_TotalCases_regression.png)
 
-# Population vs DeathsCases regression
+### Population vs DeathsCases regression
 ![Population vs DeathsCases](/Images/Population_vs_TotalDeaths_regression.png)
 
-### Google Slides:
+## Google Slides:
 
 https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtjoCw/edit#slide=id.g11c6d529e6e_0_15
 
-### Resources:
+# Resources:
 * https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
  
 * https://www.worldmeters.info/
@@ -84,7 +84,7 @@ https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtj
 *  Cases from 01/22/2020 to 7/27/2020 County wise - usacountywise.csv
 *  Current data from https://www.worldometers.info/ - worldometer_data.csv
 
-# worldometer_data.csv - Includes the following columns
+### worldometer_data.csv - Includes the following columns
 * Country/Region - Name of country/region
 * Continent - A continent is any of several large landmasses
 * Population - The total number of humans currently living
@@ -100,7 +100,7 @@ https://docs.google.com/presentation/d/1AycuMnbe9X2VxiknFEQRNvhRRRzBBq-gpRm9xGtj
 * Tests/1M pop - Total number of test cases per 1 million population
 * WHO Region - The World Health Organization divides the world into six WHO regions,
 
-# usa_county_wise.csv - Includes the following columns
+### usa_county_wise.csv - Includes the following columns
 * UID - A unique identifier numeric string for country
 * iso2 - International Standard for direction
 * iso3 - character code for the country where the site is located. 
